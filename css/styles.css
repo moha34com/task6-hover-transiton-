@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url('../img/backg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.main .navbar{
+    display: flex;
+        
+}
+.main .navbar .nav-logo {
+    color: white;
+    width: 30%;
+    margin: 5px 0 0 50px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.main .navbar .nav-links{
+    width: 70%;
+    text-align: right;
+    margin-right: 200px;
+}
+.main .navbar .nav-links li{
+    display: inline-block;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 7px 30px;
+    margin: 10px 30px;
+    font-family: monospace;
+    font-size: 15px;
+    background: rgba(100,100,100,0.5);
+    transition: background 0.5s;
+}
+.main .navbar .nav-links li:hover{
+    background: rgba(100,100,100,0.9)
+}
+.main .navbar .nav-links li a{ 
+    text-decoration: none;
+    color: white;
+}
